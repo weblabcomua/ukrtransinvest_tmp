@@ -1,0 +1,148 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    color: #1d1d1b;
+}
+
+/*menu*/
+.row.section-1 {
+    margin-top: 50px;
+    position: relative;
+    z-index: 1000;
+}
+
+.menu, logo{
+    margin:0;
+    padding: 0;
+}
+
+
+.navbar-default {
+    background-image: none;
+    box-shadow: none;
+    background-color: #ffdd0e;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-default li a {
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #1d1d1b;
+}
+
+.menu .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-image: none;
+    box-shadow: none;
+    color: #fff;
+    background-color: #1d1d1b;
+    position: relative;
+    top: 7px;
+}
+
+
+.navbar-default .navbar-nav>a:hover{
+    background-image: none;
+    box-shadow: none;
+    color: #fff;
+    background-color: #1d1d1b;
+    position: relative;
+    top: 7px;
+}
+
+
+.navbar-nav>li>a:hover{
+    background-image: none;
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+    background-color: #1d1d1b;
+}
+/*menu*/
+
+/*slider*/
+
+
+.carousel-caption{
+    bottom: 35%;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.carousel-indicators li {
+    background-color: #1d1d1b;
+    border: 0;
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.carousel-indicators li.active{
+    background-color: #ffdd0e;
+    border: 0;
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-indicators {
+    left: 15%;
+}
+
+.btn-default{
+    background: #ffdd0e;
+    border: 0;
+    border-radius: 0;
+    color: #1d1d1b;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.btn-default:hover{
+    background: #ffdd0e;
+}
+
+.btn-default:focus{
+    background: #ffdd0e;
+    border: 0;
+    border-radius: 0;
+}
+
+.row.slider {
+    position: absolute;
+    width: 100%;
+    top:0;
+}
+
+/*slider*/
+
+
+
+
+
+
+
+
+
+
+
+
