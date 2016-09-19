@@ -1,8 +1,17 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     color: #1d1d1b;
+}
+
+header{
+    height:660px;
 }
 
 /*menu*/
@@ -18,62 +27,54 @@ body{
 }
 
 
-.navbar-default {
-    background-image: none;
-    box-shadow: none;
-    background-color: #ffdd0e;
-    border: none;
-    border-radius: 0;
-}
-
-.navbar-default li a {
-    font-size: 18px;
-    font-weight: 600;
-    
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #1d1d1b;
-}
-
 .menu .container-fluid{
     padding-left: 0;
     padding-right: 0;
 }
 
-
-
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    background-image: none;
-    box-shadow: none;
-    color: #fff;
-    background-color: #1d1d1b;
-    position: relative;
-    top: 7px;
+.menu .list-inline>li {
+    display: inline-block;
+   /* padding: 20px 10px;*/
 }
 
-
-.navbar-default .navbar-nav>a:hover{
-    background-image: none;
-    box-shadow: none;
-    color: #fff;
-    background-color: #1d1d1b;
-    position: relative;
-    top: 7px;
+.list-inline>li {
+    padding-right: 0;
+    padding-left: 0;
 }
 
-
-.navbar-nav>li>a:hover{
-    background-image: none;
-    box-shadow: none;
-    position: relative;
-    top: 7px;
+.menu li a{
+    font-size: 19px;
+    color: #1d1d1b;
+    font-weight: 600;
+    padding: 20px 10px 20px 10px;
+    background: #ffdd0e;
+    margin-left: -4px;
 }
 
-.navbar-default .navbar-nav>li>a:hover{
+.menu{
+    background: #ffdd0e;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.menu li.active a{
+    background: #1d1d1b;
     color: #fff;
-    background-color: #1d1d1b;
+    padding: 20px 10px 40px 10px;
+}
+
+.menu li a:hover{
+    background: #1d1d1b;
+    color: #fff;
+    padding: 20px 10px 40px 10px;
+    text-decoration: none;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: 15px;
+    list-style: none;
+        margin-top: -2px;
 }
 /*menu*/
 
@@ -134,15 +135,4 @@ body{
 }
 
 /*slider*/
-
-
-
-
-
-
-
-
-
-
-
 
