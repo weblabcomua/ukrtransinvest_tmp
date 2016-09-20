@@ -6,7 +6,7 @@ ul{
     padding: 0;
 }
 
-body{
+body, h1, h2, h3, h4, h5, h6, p, .h1, .h2{
     color: #1d1d1b;
 }
 
@@ -74,7 +74,8 @@ header{
     padding-left: 0;
     margin-left: 15px;
     list-style: none;
-        margin-top: -2px;
+    margin-top: -3px;
+    /*float: right;*/
 }
 /*menu*/
 
@@ -135,4 +136,19 @@ header{
 }
 
 /*slider*/
+
+#home .container-fluid{
+    background: #f6f6f6;
+    border-top: solid 3px #ffdd0e;
+}
+
+#home .btn-default{
+    text-shadow: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+#home p{
+    font-size: 16px;
+}
 
