@@ -8,9 +8,39 @@ and open the template in the editor.
     Author     : webmaster
 */
 
-@media screen and (min-width:1600px) and (max-width:1920px){
+@media screen and (min-width:1900px) and (max-width:1920px){
     .menu li a {
         font-size: 26px;
+    }
+    
+    .logo {
+        padding-left: 220px;
+    }
+    
+    .carousel-indicators {
+        left: 21%;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width:1680px){
+    
+    .logo {
+        padding-left: 120px;
+    }
+    
+    .carousel-indicators {
+        left: 17%;
+    }
+}
+
+@media screen and (min-width:1441px) and (max-width:1600px){
+    
+    .logo {
+        padding-left: 90px;
+    }
+    
+    .carousel-indicators {
+        left: 17%;
     }
 }
 
@@ -69,6 +99,67 @@ and open the template in the editor.
         font-size: 10px;
     }
 
+    .dev{
+        font-size: 14px;
+    }
 
+    .bottom-menu{
+        font-size: 14px;
+    }
     
+}
+
+
+@media screen and (min-width:320px) and (max-width:414px){
+    h1{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    #home p {
+        font-size: 14px;
+    }
+    
+    #home .btn-default, footer .btn-default {
+        margin: 10px 0;
+    }
+    
+    .h1, .h2, .h3, .h4, h2, h4{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    h3{
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .contacts form {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .dev {
+        padding: 10px 0;
+    }
+    
+    .dev h6{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .bottom-menu {
+        padding: 10px 0;
+    }
+    
+    .bottom-menu ul {
+        margin-left: 0px;
+        text-align: center;
+    }
 }
