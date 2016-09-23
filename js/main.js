@@ -28,14 +28,14 @@ $(document).ready(function(){
 
     $('.row, .container, .container-fluid').addClass("wow bounceInLeft").attr("data-wow-duration","1s");
     var a = 1;
-    var timerId = setInterval(function() {
+    /*var timerId = setInterval(function() {
         if(a>2){
             a = 1;
             return;
         }
         $("header").addClass("wow bounceInLeft").css("background-image","url(img/bg-"+a+".jpg)");
         a++;
-     }, 2000);
+     }, 2000);*/
 
       
 });

@@ -11,15 +11,23 @@ body, h1, h2, h3, h4, h5, h6, p, .h1, .h2{
 }
 
 header{
-    background-image: url(../img/bg-1.jpg);
+    /*background-image: url(../img/bg-1.jpg);
     min-height: 650px;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    min-height: 650px;
+}
+
+#myCarousel .item{
+   min-height: 650px;
+   background-image: url(../img/bg-1.jpg);
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-
 
 
 /*menu*/
